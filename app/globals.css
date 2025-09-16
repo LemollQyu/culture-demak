@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Mackinac";
+  src: url("/font/mackinac-book.woff2") format("woff2");
+  font-weight: 400; /* normal / book */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mackinac";
+  src: url("/font/mackinac-medium.woff2") format("woff2");
+  font-weight: 500; /* medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mackinac";
+  src: url("/font/mackinac-bold.woff2") format("woff2");
+  font-weight: 700; /* bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mackinac";
+  src: url("/font/mackinac-extrabold-Italic.woff2") format("woff2");
+  font-weight: 800; /* extra bold */
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visby";
+  src: url("/font/visby-bold.woff2") format("woff2");
+  font-weight: 700; /* bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.font-mackinac {
+  font-family: "Mackinac", sans-serif;
+}
+
+.font-visby {
+  font-family: "Visby", sans-serif;
+}
