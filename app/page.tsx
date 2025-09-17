@@ -4,7 +4,7 @@ export default function Home() {
     <div className="h-screen w-full bg-gradient-to-b from-[#6a88a3] to-[#9bb4c2]">
 
     {/* animasi awan */}
-      <div className="relative w-full h-[650px] overflow-hidden border">
+      <div className="relative w-full h-full overflow-hidden ">
         <div
           className="absolute top-0 right-0 w-[780rem] h-full z-0 animate-cloudLoop"
           style={{

@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        putih: "#f2f0ed",
+       
+      },
       keyframes: {
         cloudLoop: {
           "0%": { backgroundPosition: "0 0" },
@@ -16,6 +20,11 @@ export default {
       },
       animation: {
         cloudLoop: "cloudLoop 80s linear infinite",
+      },
+       fontFamily: {
+        norman: ["Norman", "sans-serif"],
+        stopsn: ["StopSN", "sans-serif"],
+        custom: ["CustomFont", "sans-serif"],
       },
     },
   },
